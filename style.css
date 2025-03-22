@@ -1,0 +1,35 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?love,romantic') no-repeat center center/cover;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkred;
+}
+
+#hiddenMessage {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
